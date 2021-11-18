@@ -21,3 +21,8 @@ h1 {
     font-size: 10em;
 
 }
+
+h4 {
+    color: white;
+    font-weight:unset;
+}

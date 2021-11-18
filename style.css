@@ -7,6 +7,14 @@ body {
     padding: 0px;
 }
 
-footer {
+/* footer {
     justify-content: flex-end;
+} */
+
+h1 {
+    color:rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 'Times new Roman';
+    font-weight: bolder;
+
 }

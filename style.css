@@ -1,7 +1,12 @@
 body {
     background-color: rgb(82, 7, 7);
     font-size: 100%;
-    /* background-image: url("Assets/Coding Challenge Assets/Coding-Challenge-Image.png"); */
+    background-image: url("Assets/Coding Challenge Assets/Coding-Challenge-Image.png");
+    height: 100vh;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-right: 60%;
 
 }
 
@@ -30,7 +35,11 @@ h4 {
 }
 
 /*may need to use a hero element for the background image. Possibly should set height to 100vh
-background: urL('') no-repeat (cover? offset?)
+background: urL('') no-repeat (cover? offset?)*/
 
-align-items: center and justify-content: center for Explore text
-Might want to use rems instead of ems for text sizing
+/* #hero {
+    background-image: url("Assets/Coding Challenge Assets/Coding-Challenge-Image.png") 
+} */
+
+/* align-items: center and justify-content: center for Explore text
+Might want to use rems instead of ems for text sizing */

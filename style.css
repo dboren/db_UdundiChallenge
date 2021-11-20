@@ -36,7 +36,7 @@ h1 {
 h4 {
     color: white;
     font-weight:unset;
-    animation: fadein 5s;
+    animation: fadein 6s;
 }
 @keyframes fadein {
  from { opacity: 0}
@@ -47,12 +47,20 @@ h4 {
 svg {
     stroke: transparent;
     stroke-width: 0px;
-    animation: fadein 3s;
+    animation: fadein 6s;
 }
 @keyframes fadein {
  from { opacity: 0}
  to   { opacity: 1}
 }
+
+#details {
+    @keyframes fadein {
+        from { opacity: 0}
+        to   { opacity: 1}
+       }
+}
+
 
 /*may need to use a hero element for the background image. Possibly should set height to 100vh
 background: urL('') no-repeat (cover? offset?)*/

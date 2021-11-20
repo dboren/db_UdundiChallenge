@@ -26,12 +26,32 @@ h1 {
     font: 'Times new Roman';
     font-weight: bolder;
     font-size: 10rem;
-
+    animation: fadein 3s;
+    }
+    @keyframes fadein {
+     from { opacity: 0}
+     to   { opacity: 1}
 }
 
 h4 {
     color: white;
     font-weight:unset;
+    animation: fadein 5s;
+}
+@keyframes fadein {
+ from { opacity: 0}
+ to   { opacity: 1}
+}
+
+
+svg {
+    stroke: transparent;
+    stroke-width: 0px;
+    animation: fadein 3s;
+}
+@keyframes fadein {
+ from { opacity: 0}
+ to   { opacity: 1}
 }
 
 /*may need to use a hero element for the background image. Possibly should set height to 100vh

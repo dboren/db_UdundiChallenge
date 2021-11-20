@@ -1,12 +1,12 @@
 body {
     background-color: rgb(82, 7, 7);
     font-size: 100%;
-    background-image: url("Assets/Coding Challenge Assets/Coding-Challenge-Image.png");
+    /* background-image: url("Assets/Coding Challenge Assets/Coding-Challenge-Image.png");
     height: 100vh;
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
-    margin-right: 1vh;
+    margin-right: 1vh; */
 
 }
 
@@ -14,10 +14,19 @@ body {
     justify-content: flex-end;
 } */
 
-.front-main {
-    margin-top: 20%;
-    /* align-items: center;
-    justify-content: center; */
+#main {
+    align-content: space-between;
+    align-items: space-between;
+    background-image: url("Assets/Coding Challenge Assets/Coding-Challenge-Image.png");
+    height: 100vh;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#explore {
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -35,11 +44,17 @@ h4 {
 }
 
 /*may need to use a hero element for the background image. Possibly should set height to 100vh
-background: urL('') no-repeat (cover? offset?)*/
+background: urL('') no-repeat (cover? offset?)
 
-/* #hero {
-    background-image: url("Assets/Coding Challenge Assets/Coding-Challenge-Image.png") 
-} */
+.hero {
+    background-image: url("Assets/Coding Challenge Assets/Coding-Challenge-Image.png");
+    height: 100vh;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-right: 1vh;
+}
+
 
 /* align-items: center and justify-content: center for Explore text
 Might want to use rems instead of ems for text sizing */

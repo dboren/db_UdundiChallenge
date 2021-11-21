@@ -58,12 +58,12 @@ h4 {
 svg {
     stroke: transparent;
     stroke-width: 0px;
-    animation: fadein 5s;
+    /* animation: fadein 5s; */
 }
-@keyframes fadein {
+/* @keyframes fadein {
  from { opacity: 0}
  to   { opacity: 1}
-}
+} */
 
 #details {
     @keyframes fadein {

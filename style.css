@@ -43,7 +43,7 @@ h2 {
 h4 {
     color: white;
     font-weight:unset;
-    animation: fadein 6s;
+    animation: fadein 5s;
 }
 @keyframes fadein {
  from { opacity: 0}
@@ -58,7 +58,7 @@ h4 {
 svg {
     stroke: transparent;
     stroke-width: 0px;
-    animation: fadein 6s;
+    animation: fadein 5s;
 }
 @keyframes fadein {
  from { opacity: 0}
@@ -74,6 +74,15 @@ svg {
 
 #moredalInfo {
     visibility: visible;
+}
+
+#readMoreButton {
+    background-color: rgb(82, 7, 7);
+    color: rgb(255, 255, 255);
+    font-size: small;
+    padding-left: 40px;
+    padding-right: 40px;
+
 }
 
 /*may need to use a hero element for the background image. Possibly should set height to 100vh

@@ -7,6 +7,9 @@ body {
     background-position: right;
     background-repeat: no-repeat;
     margin-right: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
@@ -116,6 +119,11 @@ svg {
     padding-top: 10px;
     padding-bottom: 10px;
 
+}
+
+#modalButton {
+    background: none;
+    border: none;
 }
 
 /*may need to use a hero element for the background image. Possibly should set height to 100vh

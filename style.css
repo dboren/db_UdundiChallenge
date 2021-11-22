@@ -10,6 +10,12 @@ body {
 
 }
 
+@media (max-width: 800px) {
+    body {
+        background-size: cover;
+    }
+}
+
 .modal {
     background-color: transparent;
     animation: slidein 0.5s;

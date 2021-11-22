@@ -45,8 +45,6 @@ footer {
 
 .front-main {
     margin-top: 17%;
-    /* align-items: center;
-    justify-content: center; */
 }
 
 h1 {
@@ -91,12 +89,8 @@ h4 {
 svg {
     stroke: transparent;
     stroke-width: 0px;
-    /* animation: fadein 5s; */
 }
-/* @keyframes fadein {
- from { opacity: 0}
- to   { opacity: 1}
-} */
+
 
 #details {
     @keyframes fadein {
@@ -110,7 +104,6 @@ svg {
 }
 
 #readMoreButton {
-    /* background-color: rgb(82, 7, 7); */
     background-image: linear-gradient(to right, rgba(82, 7, 7, 1), rgba(187, 96, 96, 0.8));
     color: rgb(255, 255, 255);
     font-size: small;
@@ -132,16 +125,6 @@ svg {
     border: none;
 }
 
-/*may need to use a hero element for the background image. Possibly should set height to 100vh
-background: urL('') no-repeat (cover? offset?)*/
-
-/* #hero {
-    background-image: url("Assets/Coding Challenge Assets/Coding-Challenge-Image.png") 
-} */
-
-/* align-items: center and justify-content: center for Explore text
-Might want to use rems instead of ems for text sizing */
-
 @media (max-width: 800px) {
     body {
         background-size: cover;
@@ -155,4 +138,5 @@ Might want to use rems instead of ems for text sizing */
         color: black;
         font-weight: bolder;
     }
+
 }

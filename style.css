@@ -149,5 +149,10 @@ Might want to use rems instead of ems for text sizing */
 
     h1 {
         font-size: 5rem;
+        color: black;
+    }
+    h4 {
+        color: black;
+        font-weight: bolder;
     }
 }
